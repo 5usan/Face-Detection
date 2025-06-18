@@ -1,98 +1,45 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Face Detection" />
+# Face Detection with OpenCV
 
-  &#xa0;
+## 🎯 Project Overview
 
-  <!-- <a href="https://facedetection.netlify.app">Demo</a> -->
-</div>
+This project demonstrates **real-time face detection** using OpenCV and Python. It captures webcam video, detects faces using a pre-trained Haar Cascade model, and displays bounding boxes around detected faces live.
 
-<h1 align="center">Face Detection</h1>
+## 🚀 Features
 
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/face-detection?color=56BEB8">
+- Real-time face detection using webcam  
+- Uses OpenCV’s Haar Cascade Classifier  
+- No training required — pre-trained model used  
+- Displays bounding boxes on detected faces  
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/face-detection?color=56BEB8">
+## 🛠️ Installation
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/face-detection?color=56BEB8">
+**Requirements**:
+- Python 3.6+
+- OpenCV, NumPy, Matplotlib (optional)
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/face-detection?color=56BEB8">
+(Optional but recommended: create a virtual environment)
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/face-detection?color=56BEB8" /> -->
+## ▶️ Usage
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/face-detection?color=56BEB8" /> -->
+1. Launch the Jupyter Notebook: `Face_Detection.ipynb`
+2. Run all cells in order.
+3. Make sure your webcam is on.
+4. Press `q` to stop the detection loop.
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/face-detection?color=56BEB8" /> -->
-</p>
+## 📈 Performance
 
-<!-- Status -->
+- Runs in real-time (~20–30 FPS on CPU)
+- Works best with frontal faces in good lighting
 
-<!-- <h4 align="center"> 
-	🚧  Face Detection 🚀 Under construction...  🚧
-</h4> 
+## 📄 License
 
-<hr> -->
+MIT License
 
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
-</p>
+## 🤝 Contributing
 
-<br>
+Pull requests and issues welcome! Fork the repo and submit improvements.
 
-## :dart: About ##
+## 📬 Contact
 
-Describe your project
-
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
-
-## :rocket: Technologies ##
-
-The following tools were used in this project:
-
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-
-## :white_check_mark: Requirements ##
-
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
-
-## :checkered_flag: Starting ##
-
-```bash
-# Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/face-detection
-
-# Access
-$ cd face-detection
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
-```
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
-
-&#xa0;
-
-<a href="#top">Back to top</a>
+**Your Name**  
+[susanshrestha2056@gmail.com]
