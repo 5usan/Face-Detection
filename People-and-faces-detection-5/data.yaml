@@ -1,0 +1,13 @@
+names:
+- head
+- person
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: people-and-faces-detection-1drf3
+  url: https://universe.roboflow.com/datasets-5vixy/people-and-faces-detection-1drf3/dataset/5
+  version: 5
+  workspace: datasets-5vixy
+test: ../test/images
+train: ../train/images
+val: ../valid/images
